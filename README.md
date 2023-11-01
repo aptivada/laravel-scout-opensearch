@@ -65,6 +65,9 @@ so all the features of thes two packages is available to use. For usage of this 
 I recommend you to check out the documentation of
 [matchish/laravel-scout-elasticsearch](https://github.com/matchish/laravel-scout-elasticsearch) as it is a fully compartibile with clean documentation.
 
+## License
+Laravel Scout OpenSearch is an open-sourced software licensed under the [MIT license](LICENSE.md).
+
 ## Credits
 
 This package is a combination of [matchish/laravel-scout-elasticsearch](https://github.com/matchish/laravel-scout-elasticsearch)
