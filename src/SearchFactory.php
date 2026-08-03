@@ -13,7 +13,7 @@ use OpenSearchDSL\Sort\FieldSort;
 
 final class SearchFactory
 {
-    public static function create(Builder $builder, array $options = [], Cursor $cursor = null): Search
+    public static function create(Builder $builder, array $options = [], ?Cursor $cursor = null): Search
     {
         $search = new Search();
 

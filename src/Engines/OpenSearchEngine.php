@@ -112,7 +112,7 @@ class OpenSearchEngine extends Engine
     protected function performSearch(
         Builder $builder,
         array $options = [],
-        Cursor $cursor = null
+        ?Cursor $cursor = null
     ) {
         $searchBody = SearchFactory::create($builder, $options, $cursor);
         if ($builder->callback) {

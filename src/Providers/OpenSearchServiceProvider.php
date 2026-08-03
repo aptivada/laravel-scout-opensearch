@@ -41,7 +41,7 @@ class OpenSearchServiceProvider extends ServiceProvider
 
         Builder::macro(
             'cursorPaginate',
-            function (int $perPage = null, string $cursorName = 'cursor', $cursor = null): CursorPaginator {
+            function (?int $perPage = null, string $cursorName = 'cursor', $cursor = null): CursorPaginator {
             /**
              * @var Builder $this
              */
